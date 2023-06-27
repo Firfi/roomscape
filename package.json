@@ -1,0 +1,19 @@
+{
+  "name": "roomscape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-esm app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kldzj/named-pipes": "^2.0.3",
+    "@types/express": "^4.17.13",
+    "express": "^4.17.3",
+    "play-dl": "^1.9.4",
+    "youtube-dl-exec": "^2.0.10"
+  }
+}
